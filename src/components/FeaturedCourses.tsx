@@ -2,7 +2,6 @@
 import Link from "next/link";
 import courseData from "../data/music_courses.json";
 import { BackgroundGradient } from "./ui/background-gradient";
-import Image from "next/image";
 
 interface Course {
   id: number;
@@ -54,9 +53,9 @@ function FeaturedCourses() {
       <div className="mt-20 text-center">
         <Link
           href={"/courses"}
-          className="px-4 py-2 rounded border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200"
+          className="shadow-[inset_0_0_0_2px_#616467] text-black px-12 py-4 rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-[#67adf487] hover:text-white dark:text-neutral-200 transition duration-200"
         >
-          View All courses
+          View All Courses
         </Link>
       </div>
     </div>
