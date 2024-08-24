@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { cn } from "@/lib/utils";
-import { Spotlight } from "./ui/SpotLight";
 import { Button } from "./ui/moving-border";
+import { Spotlight } from "./ui/spotlight";
 
 type Props = {};
 
